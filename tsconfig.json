@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "lib": [
+            "es7",
+            "es2017",
+            "dom"
+        ],
+        "outDir": "./.src",
+        "allowJs": true,
+        "declaration": false,
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "noUnusedParameters": true,
+        "forceConsistentCasingInFileNames": true,
+        "pretty": true,
+        "types": [
+            "node", "jest", "moca"
+        ]
+    },
+    "include": [
+        "cypress/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
