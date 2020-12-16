@@ -1,4 +1,4 @@
-{
+ {
     "compilerOptions": {
         "target": "es2018",
         "module": "commonjs",
@@ -18,7 +18,7 @@
         "forceConsistentCasingInFileNames": true,
         "pretty": true,
         "types": [
-            "node", "jest", "moca"
+            "node", "jest", "cypress"
         ]
     },
     "include": [

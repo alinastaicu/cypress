@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "lint-fix": "tslint 'cypress/**/*.ts' --fix"
   },
   "devDependencies": {
     "@types/chai": "^4.2.14",
@@ -11,6 +12,10 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "cypress-xpath": "^1.6.1"
   }
 }
