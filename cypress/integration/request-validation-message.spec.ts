@@ -12,6 +12,10 @@ describe('GIVEN my page scenario', () => {
         lastname: 'Pecu',
         streetName: 'Erika-Mann-Str',
         streetNumber: '66',
+        cityName: 'München',
+        areaCode: '80636',
+        insurancePolicyNumber: '1234567',
+        typeCancellation: 'Widerruf',
       });
     });
 
