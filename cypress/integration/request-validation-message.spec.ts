@@ -4,7 +4,7 @@ describe('GIVEN my page scenario', () => {
   describe('WHEN I fill partial data', () => {
     before(() => {
       requestPage.open();
-      requestPage.acceptCookies();
+      requestPage.cookiePlaceholder.click();
       requestPage.fillCancelationForm({
         email: 'alina.ignat@check24.de',
         gender: 'Frau',
@@ -16,6 +16,8 @@ describe('GIVEN my page scenario', () => {
         areaCode: '80636',
         insurancePolicyNumber: '1234567',
         typeCancellation: 'Widerruf',
+        birthday: new Date('1984-10-25'),
+        sign: false,
       });
     });
 
