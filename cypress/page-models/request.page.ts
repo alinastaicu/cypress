@@ -81,7 +81,7 @@ class RequestPage {
   //#endregion
 
   public open() {
-    cy.visit('https://versicherungsservice.check24-test.de/kuendigen/anfrage/allianz?source=CH24_V_VERC-KS&productKey=phv');
+    cy.visit('https://versicherungsservice.check24.de/kuendigen/anfrage/allianz?source=CH24_V_VERC-KS&productKey=phv&reasonKey=other');
   }
 
   public fillCancelationForm(data: IRequestStepData) {
